@@ -16,7 +16,7 @@ export const HeaderContainer = styled.header`
 		margin: 0 auto;
 	}
 
-	@media (min-width: 481px) {
+	@media (min-width: 520px) {
 		section {
 			max-width: 1440px;
 			padding: 1.75rem 4.375rem;

@@ -13,7 +13,7 @@ export const CatalogContainer = styled.section`
 	flex: 1;
 
 
-	@media (min-width: 481px) {
+	@media (min-width: 520px) {
 		max-width: 1440px;
 		margin: 0 auto;
 		padding: 0 4.375rem;
@@ -27,7 +27,7 @@ export const ProductsContainer = styled.div`
 	align-items: start;
 	gap: 1rem;
 
-	@media (min-width: 481px) {
+	@media (min-width: 520px) {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		gap: 1.25rem;
@@ -48,7 +48,7 @@ export const FilterContainer = styled.div`
 		gap: 0.5rem;
 	}
 
-	@media (min-width: 481px) {
+	@media (min-width: 520px) {
 		flex-direction: row;
 		padding: 3rem 0;
 		width: 100%;
