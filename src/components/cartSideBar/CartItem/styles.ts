@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
 export const CartItemCard = styled.div`
-  background-color: ${(props) => props.theme['white']};
-  color: ${(props) => props.theme['black']};
-  width: 250px;
+	background-color: ${(props) => props.theme["white"]};
+	color: ${(props) => props.theme["black"]};
+	width: 250px;
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 20px;
-  position: relative;
-  border-radius: 8px;
+	position: relative;
+	border-radius: 8px;
+
+	@media (min-width: 520px) {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		padding: 1rem;
+	}
 `;
 
 export const RemoveButton = styled.div`

@@ -23,6 +23,10 @@ export const SidebarContainer = styled(motion.div)`
 	&::-webkit-scrollbar {
 		width: 0;
 	}
+
+	@media (min-width: 520px) {
+		width: fit-content;
+	}
 `;
 
 export const CartHeader = styled.header`
@@ -57,6 +61,10 @@ export const CartItemsContainer = styled.div`
 
 	&::-webkit-scrollbar {
 		width: 0;
+	}
+
+	@media (min-width: 520px) {
+		padding: 3rem;
 	}
 `;
 
