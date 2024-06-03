@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const CatalogContainer = styled.section`
 	width: 100vw;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	padding: 0.5rem 0;
 	gap: 1rem;
-	justify-content: start;
+	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
 	flex: 1;
+
 
 	@media (min-width: 481px) {
 		max-width: 1440px;
@@ -22,7 +24,7 @@ export const ProductsContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	gap: 1rem;
 
 	@media (min-width: 481px) {
