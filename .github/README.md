@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 <h1 align="center">Desafio: MKS Sistemas</h1>
 <br>
-<img src="https://img.shields.io/github/license/HyanFerraz/MKS-Challenge" alt="License">
+
+---
 
 ## Sobre o Projeto:
 
@@ -40,7 +40,3 @@ O projeto foi desenvolvido com a intenção de construir uma loja de eletrônico
 ```
 
 <p align="center">Acesse o localhost:3000 ou o link da <a href="https://mks-challenge-hyanferrazs-projects.vercel.app">Vercel</a></p>
-
-=======
-Eletronic Store
->>>>>>> parent of f0b7955 (updated README.md)
