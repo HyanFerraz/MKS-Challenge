@@ -1,12 +1,9 @@
 import StyledComponentsRegistry from '@/lib/registry'
 import type { Metadata } from 'next'
-import {Montserrat} from 'next/font/google'
 
 export const metadata: Metadata = {
-  title: "Eletronic Store",
+  title: "MKS Sistemas",
 }
-
-const montserrat = Montserrat({subsets: ['latin'], weight:"400"})
  
 export default function RootLayout({
   children,
@@ -15,11 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className={montserrat.className}>
-        <StyledComponentsRegistry>
-          {children}
-        </StyledComponentsRegistry>
-      </body>
+      <StyledComponentsRegistry>
+        {children}
+      </StyledComponentsRegistry>
     </html>
   )
 }
