@@ -8,7 +8,6 @@ import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import { North, South } from "@mui/icons-material";
 import { CartContext } from "../providers/cartProvider";
-import { Skeleton } from "@nextui-org/skeleton";
 
 export function Catalog() {
   const { cartItems ,addToCart } = useContext(CartContext);
