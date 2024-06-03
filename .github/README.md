@@ -1,7 +1,5 @@
 <h1 align="center">Desafio: MKS Sistemas</h1>
 <br>
-<p align="center"><a href="https://mks-challenge-hyanferrazs-projects.vercel.app">Link da Vercel</a></p>
-<br>
 <img src="https://img.shields.io/github/license/HyanFerraz/MKS-Challenge" alt="License">
 
 ## Sobre o Projeto:
